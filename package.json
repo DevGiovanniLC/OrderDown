@@ -1,0 +1,30 @@
+{
+  "name": "setdown",
+  "version": "2.1.0",
+  "description": "Aplicacion para programar apagado",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "author": "Giovanni León Corujo",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^23.1.2",
+    "electron-builder": "^23.6.0"
+  },
+  "build": {
+    "appId": "SetDown",
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "assets/icon.ico"
+    },
+    "nsis": {
+      "installerIcon": "icon.ico",
+      "uninstallerIcon": "icon.ico",
+      "uninstallDisplayName": "SetDown-Uninstaller"
+    }
+  }
+}
