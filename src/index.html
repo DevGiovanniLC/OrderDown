@@ -6,9 +6,9 @@
     <script defer src="js/appFunctions.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <title>SetDown</title>
+    <title>OrderDown</title>
     <div id="titlebar">
-      <img src=../assets/icon2.png alt="black clock"/>
+      <img id="iconFolder" src=../assets/icon_titlebar.png alt="white folder"/>
       <label>OrderDown</label>
 
       <div id="button-panel">
@@ -16,8 +16,13 @@
           <button id="quitButton"><span>X</span></button>
       </div>
     </div>
-
   </head>
   <body>
+    <div id="menu">
+        <button class="button" id="OrderButton">Order</button>
+        <button class="button" id="ExplorerButton">Explorer</button>
+        <button class="button" id="RemoveButton">Remove</button>
+        <button class="button" id="UpdateButton">Update</button>
+    </div>
   </body>
 </html>

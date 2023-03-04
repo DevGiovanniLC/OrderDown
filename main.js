@@ -7,11 +7,10 @@ function createWindow () {
   
   win = new BrowserWindow({
     width: 600,
-    height: 600,
+    height: 800,
     resizable: false,
     frame: false,
     icon: 'assets/icon.ico',
-    skipTaskbar: true,
     roundedCorners: true,
     webPreferences: {
       nodeIntegration: true,

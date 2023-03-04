@@ -1,6 +1,6 @@
 {
-  "name": "setdown",
-  "version": "2.1.0",
+  "name": "orderdown",
+  "version": "2.0.0",
   "description": "Aplicacion para programar apagado",
   "main": "main.js",
   "scripts": {
